@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thách Thức 28 Ngày Thay Áo Fanpage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #001f54;
+      }
+      .animate-on-scroll {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      }
+      .animate-on-scroll.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      /* Staggered delay for list items */
+      .delay-100 { transition-delay: 100ms; }
+      .delay-200 { transition-delay: 200ms; }
+      .delay-300 { transition-delay: 300ms; }
+      .delay-400 { transition-delay: 400ms; }
+      .delay-500 { transition-delay: 500ms; }
+
+      .glow-on-hover:hover {
+        box-shadow: 0 0 15px 0px rgba(255, 189, 0, 0.6);
+      }
+    </style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="app-container" class="bg-[#001f54] text-white">
+        <header class="bg-[#001f54]/80 backdrop-blur-lg fixed top-0 left-0 right-0 z-50 shadow-md">
+            <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+                <a href="#" class="text-2xl font-bold text-white">
+                    Ni<span class="text-[#ffbd00]">Va</span>
+                </a>
+                <a href="#pricing" class="bg-[#ffbd00] text-[#001f54] font-bold py-2 px-6 rounded-full hover:bg-yellow-400 transition duration-300 transform hover:scale-105">
+                    Đăng ký ngay
+                </a>
+            </div>
+        </header>
+        
+        <main class="pt-20">
+            <!-- Hero Section -->
+            <section class="min-h-screen bg-cover bg-center flex items-center justify-center relative" style="background-image: url('https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+                <div class="absolute inset-0 bg-gradient-to-b from-[#001f54]/90 to-[#001f54]/70"></div>
+                <div class="container mx-auto px-6 text-center relative z-10">
+                    <h1 class="text-4xl md:text-6xl font-extrabold text-[#ffbd00] leading-tight mb-4 tracking-wide animate-on-scroll" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.6)">
+                        Thách Thức 28 Ngày Thay Áo Fanpage
+                    </h1>
+                    <p class="text-2xl md:text-4xl font-semibold mb-8 animate-on-scroll delay-100" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.5)">
+                        Tăng 200% Tương Tác Từ Phụ Huynh Tiềm Năng
+                    </p>
+                    <a href="#pricing" class="bg-[#ffbd00] text-[#001f54] font-bold py-4 px-10 rounded-full text-xl hover:bg-yellow-400 transition duration-300 transform hover:scale-105 inline-block animate-on-scroll delay-200 glow-on-hover">
+                        Đăng ký ngay
+                    </a>
+                    <div class="mt-12 flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 animate-on-scroll delay-300 text-lg">
+                        <div class="flex items-center space-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#ffbd00]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            <span>Không chạy ads</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#ffbd00]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            <span>Không thuê agency</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#ffbd00]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            <span>Không cần kỹ thuật</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pain Points Section -->
+            <section class="py-24 bg-[#001f54]">
+                <div class="container mx-auto px-6">
+                    <div class="text-center mb-16">
+                        <h2 class="text-4xl md:text-5xl font-bold text-[#ffbd00] mb-4 animate-on-scroll tracking-wide">Fanpage Của Bạn Có Đang... "Mất Tương Tác"?</h2>
+                        <p class="text-lg text-gray-300 max-w-3xl mx-auto animate-on-scroll delay-100">Nếu bạn đang gặp phải những vấn đề này, fanpage của trường đang dần trở nên mờ nhạt trong mắt phụ huynh.</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div class="bg-[#062c6f] p-8 rounded-xl shadow-lg flex items-start space-x-5 animate-on-scroll" style="transition-delay: 200ms">
+                            <div class="flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#ffbd00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.586-6.586A2 2 0 1015.172 7z" /></svg>
+                            </div>
+                            <p class="text-lg text-gray-200">Đăng bài không ai xem, tương tác chủ yếu từ giáo viên.</p>
+                        </div>
+                        <div class="bg-[#062c6f] p-8 rounded-xl shadow-lg flex items-start space-x-5 animate-on-scroll" style="transition-delay: 300ms">
+                            <div class="flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#ffbd00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l-4 4-4-4M6 16l-4-4 4-4" /></svg>
+                            </div>
+                            <p class="text-lg text-gray-200">Ảnh, màu sắc, font chữ không thống nhất, thiếu chuyên nghiệp.</p>
+                        </div>
+                        <div class="bg-[#062c6f] p-8 rounded-xl shadow-lg flex items-start space-x-5 animate-on-scroll" style="transition-delay: 400ms">
+                            <div class="flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#ffbd00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
+                            </div>
+                            <p class="text-lg text-gray-200">Nội dung 'đúng chuyên môn' nhưng không chạm insight phụ huynh.</p>
+                        </div>
+                        <div class="bg-[#062c6f] p-8 rounded-xl shadow-lg flex items-start space-x-5 animate-on-scroll" style="transition-delay: 500ms">
+                            <div class="flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#ffbd00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" /></svg>
+                            </div>
+                            <p class="text-lg text-gray-200">Tựa đề bài viết chưa thu hút, không nói lên lợi ích cho phụ huynh.</p>
+                        </div>
+                        <div class="bg-[#062c6f] p-8 rounded-xl shadow-lg flex items-start space-x-5 animate-on-scroll" style="transition-delay: 600ms">
+                            <div class="flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#ffbd00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+                            </div>
+                            <p class="text-lg text-gray-200">Video không có mục đích rõ ràng, không truyền tải được thông điệp.</p>
+                        </div>
+                        <div class="bg-[#062c6f] p-8 rounded-xl shadow-lg flex items-start space-x-5 animate-on-scroll" style="transition-delay: 700ms">
+                            <div class="flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#ffbd00]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5z" /></svg>
+                            </div>
+                            <p class="text-lg text-gray-200">Không biết đo lường hiệu quả, không rõ nội dung nào thu hút.</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-16 text-center animate-on-scroll">
+                        <p class="text-xl md:text-2xl max-w-4xl mx-auto leading-relaxed text-gray-200 italic border-l-4 border-[#ffbd00] pl-8 py-4 text-left">
+                            "Fanpage là mặt tiền của Trường. Thay vì để mặt tiền cũ kỹ, khô khan khiến phụ huynh lướt qua, hãy <span class="font-bold text-white underline decoration-[#ffbd00] decoration-4 underline-offset-4">Thay Áo</span> cho nó để thu hút phụ huynh tự vào bên trong tìm hiểu."
+                        </p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Benefits Section -->
+            <section class="py-24 bg-gray-50 text-[#001f54]">
+                <div class="container mx-auto px-6">
+                    <div class="text-center mb-16">
+                        <h2 class="text-4xl md:text-5xl font-bold mb-4 animate-on-scroll tracking-wide">Kết Quả Đạt Được Sau 28 Ngày</h2>
+                    </div>
+                    <div class="flex flex-col lg:flex-row items-center gap-12">
+                        <div class="lg:w-1/3 animate-on-scroll delay-100">
+                            <img src="https://123angels.vn/thach-thuc-28-ngay-thay-ao-fanpage/chrome_PUdG01gmZo.png" alt="Happy Asian parents" class="rounded-xl shadow-2xl object-cover h-full w-full" />
+                        </div>
+                        <div class="lg:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="bg-white p-6 rounded-xl shadow-lg flex items-start space-x-4 h-full animate-on-scroll" style="transition-delay: 300ms">
+                                <div class="flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-[#001f54]">Tăng 200% Tương Tác Thật</h3>
+                                    <p class="text-gray-600 mt-2">Từ phụ huynh đúng tệp, không còn là những lượt thích, bình luận 'nội bộ'.</p>
+                                </div>
+                            </div>
+                            <div class="bg-white p-6 rounded-xl shadow-lg flex items-start space-x-4 h-full animate-on-scroll" style="transition-delay: 400ms">
+                                <div class="flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-[#001f54]">Nội Dung Thu Hút & Cảm Xúc</h3>
+                                    <p class="text-gray-600 mt-2">Nội dung thật hơn, đa dạng, có cảm xúc, khiến phụ huynh lạ phải dừng lại xem.</p>
+                                </div>
+                            </div>
+                            <div class="bg-white p-6 rounded-xl shadow-lg flex items-start space-x-4 h-full animate-on-scroll" style="transition-delay: 500ms">
+                                <div class="flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-[#001f54]">Vượt Qua Bí Ý Tưởng</h3>
+                                    <p class="text-gray-600 mt-2">Nắm vững 20 concept kịch bản đa dạng, không bao giờ lo bí ý tưởng content.</p>
+                                </div>
+                            </div>
+                            <div class="bg-white p-6 rounded-xl shadow-lg flex items-start space-x-4 h-full animate-on-scroll" style="transition-delay: 600ms">
+                                <div class="flex-shrink-0 mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-[#001f54]">Bậc Thầy Viết Tiêu Đề</h3>
+                                    <p class="text-gray-600 mt-2">Biết cách viết tựa đề ĐÚNG insight, thu hút đúng tệp phụ huynh.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- About Section -->
+            <section class="py-24 bg-[#001f54]">
+                <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
+                    <div class="lg:w-1/3 animate-on-scroll">
+                        <img src="https://123angels.vn/thach-thuc-28-ngay-thay-ao-fanpage/chrome_fB78PhKlkM.png" alt="NiVa" class="rounded-full shadow-lg mx-auto border-4 border-[#ffbd00] w-64 h-64 object-cover" />
+                    </div>
+                    <div class="lg:w-2/3 animate-on-scroll delay-100">
+                        <h2 class="text-3xl font-bold text-center lg:text-left text-[#ffbd00] mb-6 tracking-wide">NiVa – Người Đồng Hành Cùng Người Làm Giáo Dục</h2>
+                        <div class="text-lg text-gray-200 space-y-4 bg-[#062c6f] p-8 rounded-xl relative">
+                            <svg class="absolute top-4 left-4 w-10 h-10 text-[#ffbd00]/20" fill="currentColor" viewBox="0 0 32 32"><path d="M9.333 22.667h4L17.333 16V9.333H5.333v13.334h4v-8.334L9.333 22.667zM22.667 22.667h4L30.667 16V9.333H18.667v13.334h4v-8.334l-4 8.334z"></path></svg>
+                            <p class="italic relative z-10">
+                                “Tôi đang làm việc với hơn 200 trường mầm non tại TP.HCM. Phần lớn có đội ngũ tốt, chương trình tốt, nhưng fanpage lại quá khô khan... không phản ánh hết những điều Trường đang có.”
+                            </p>
+                            <p class="font-semibold text-white relative z-10 pt-4">
+                                NiVa tin rằng, khi bạn thay đổi và đa dạng hóa nội dung, Fanpage của bạn sẽ có linh hồn hơn, từ đó thu hút được tệp khách hàng tiềm năng.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Course Outline Section -->
+             <section class="py-24 bg-gray-50 text-[#001f54]">
+                <div class="container mx-auto px-6">
+                    <div class="text-center mb-16">
+                        <h2 class="text-4xl md:text-5xl font-bold mb-4 animate-on-scroll tracking-wide">Lộ Trình 28 Ngày Thay Đổi Fanpage</h2>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                       <div class="bg-white p-8 rounded-xl shadow-lg h-full flex flex-col transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" style="transition-delay: 200ms">
+                            <h3 class="text-xl font-bold text-[#001f54] mb-4">Giai đoạn 1: Làm Đẹp & Chuẩn Hóa</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-600 flex-grow">
+                                <li>Định vị hình ảnh, tone màu</li>
+                                <li>Chuẩn hóa profile & thông tin</li>
+                                <li>Thu thập và đo lường chỉ số</li>
+                            </ul>
+                        </div>
+                       <div class="bg-white p-8 rounded-xl shadow-lg h-full flex flex-col transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" style="transition-delay: 300ms">
+                            <h3 class="text-xl font-bold text-[#001f54] mb-4">Giai đoạn 2: Viết Nội Dung Giá Trị</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-600 flex-grow">
+                                <li>20+ Cấu trúc tiêu đề & concept</li>
+                                <li>Thực hành quay video mới</li>
+                                <li>Triển khai, đo lường & tối ưu</li>
+                            </ul>
+                        </div>
+                       <div class="bg-white p-8 rounded-xl shadow-lg h-full flex flex-col transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" style="transition-delay: 400ms">
+                            <h3 class="text-xl font-bold text-[#001f54] mb-4">Giai đoạn 3: Bùng Nổ Tương Tác</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-600 flex-grow">
+                                <li>20+ Cấu trúc & concept nâng cao</li>
+                                <li>Tập trung vào content thu hút</li>
+                                <li>Đo lường và so sánh hiệu quả</li>
+                            </ul>
+                        </div>
+                       <div class="bg-white p-8 rounded-xl shadow-lg h-full flex flex-col transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" style="transition-delay: 500ms">
+                            <h3 class="text-xl font-bold text-[#001f54] mb-4">Giai đoạn 4: Biến Tương Tác Thành Tuyển Sinh</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-600 flex-grow">
+                                <li>Cách tư vấn tăng chuyển đổi</li>
+                                <li>Tạo Mini landing page</li>
+                                <li>Quy trình phát triển bền vững</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Target Audience Section -->
+            <section class="py-24 bg-[#001f54]">
+                <div class="container mx-auto px-6 text-center">
+                    <h2 class="text-4xl md:text-5xl font-bold text-[#ffbd00] mb-12 animate-on-scroll tracking-wide">Khóa Học Này Dành Riêng Cho Ai?</h2>
+                    <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+                       <div class="flex items-center space-x-4 bg-[#062c6f] p-5 rounded-lg animate-on-scroll" style="transition-delay: 200ms">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#ffbd00] flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                            <p class="text-lg text-gray-200">Chủ trường mầm non – tiểu học muốn tăng tuyển sinh</p>
+                       </div>
+                       <div class="flex items-center space-x-4 bg-[#062c6f] p-5 rounded-lg animate-on-scroll" style="transition-delay: 300ms">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#ffbd00] flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                            <p class="text-lg text-gray-200">Hiệu trưởng muốn fanpage chạm và thu hút Phụ Huynh Tiềm Năng</p>
+                       </div>
+                       <div class="flex items-center space-x-4 bg-[#062c6f] p-5 rounded-lg animate-on-scroll" style="transition-delay: 400ms">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#ffbd00] flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                            <p class="text-lg text-gray-200">Người phụ trách truyền thông trường học</p>
+                       </div>
+                       <div class="flex items-center space-x-4 bg-[#062c6f] p-5 rounded-lg animate-on-scroll" style="transition-delay: 500ms">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#ffbd00] flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg>
+                            <p class="text-lg text-gray-200">Giáo viên phụ trách page, muốn không bị bí ý tưởng</p>
+                       </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bonuses Section -->
+            <section class="py-24 bg-gray-50 text-[#001f54]">
+                <div class="container mx-auto px-6">
+                    <div class="text-center mb-16">
+                        <h2 class="text-4xl md:text-5xl font-bold mb-4 animate-on-scroll tracking-wide">Quà Tặng Đặc Biệt Khi Đăng Ký Ngay</h2>
+                        <p class="text-lg text-gray-600 max-w-2xl mx-auto animate-on-scroll delay-100">Những phần quà này sẽ giúp bạn đi nhanh và xa hơn trên hành trình xây dựng thương hiệu.</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="bg-white p-8 rounded-xl shadow-lg text-center h-full transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" style="transition-delay: 300ms">
+                            <div class="text-[#001f54] mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            </div>
+                            <h3 class="text-xl font-bold text-[#001f54] mb-2">Bộ Câu Hỏi Tìm Bản Sắc</h3>
+                            <p class="text-gray-600">Nền móng của thương hiệu. Đừng làm gì cả khi chưa tìm ra bản sắc cá nhân.</p>
+                        </div>
+                        <div class="bg-white p-8 rounded-xl shadow-lg text-center h-full transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" style="transition-delay: 400ms">
+                            <div class="text-[#001f54] mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                            </div>
+                            <h3 class="text-xl font-bold text-[#001f54] mb-2">1 Buổi Coaching 1:1 với NiVa</h3>
+                            <p class="text-gray-600">Giải đáp sâu các vấn đề riêng của trường bạn và nhận định hướng chiến lược.</p>
+                        </div>
+                        <div class="bg-white p-8 rounded-xl shadow-lg text-center h-full transform hover:-translate-y-2 transition-transform duration-300 animate-on-scroll" style="transition-delay: 500ms">
+                            <div class="text-[#001f54] mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            </div>
+                            <h3 class="text-xl font-bold text-[#001f54] mb-2">Hỗ Trợ 2 Tuần Sau Khóa Học</h3>
+                            <p class="text-gray-600">Tiếp tục được đồng hành và giải đáp thắc mắc để đảm bảo bạn áp dụng thành công.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Pricing Section -->
+            <section id="pricing" class="py-24 bg-[#001f54]">
+                <div class="container mx-auto px-6">
+                    <div class="text-center mb-16">
+                        <h2 class="text-4xl md:text-5xl font-bold text-[#ffbd00] mb-4 animate-on-scroll tracking-wide">Học Phí & Hình Thức Học</h2>
+                    </div>
+                    <div class="max-w-5xl mx-auto flex flex-col lg:flex-row gap-8 items-stretch">
+                        <!-- Left Card -->
+                        <div class="lg:w-1/2 bg-[#062c6f] p-8 rounded-xl shadow-lg flex flex-col animate-on-scroll delay-100">
+                            <h3 class="text-2xl font-bold text-center mb-6">Hình Thức Học Online</h3>
+                            <ul class="space-y-4 text-lg text-gray-200 flex-grow">
+                                <li class="flex items-start">
+                                    <span class="text-[#ffbd00] mr-3 mt-1 font-bold">✓</span>
+                                    Online trong nhóm kín (Skool / Facebook Group).
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-[#ffbd00] mr-3 mt-1 font-bold">✓</span>
+                                    Mỗi ngày nhận 1 video hướng dẫn + 1 nhiệm vụ.
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-[#ffbd00] mr-3 mt-1 font-bold">✓</span>
+                                    Hệ thống theo dõi điểm và xếp hạng.
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-[#ffbd00] mr-3 mt-1 font-bold">✓</span>
+                                    Cam kết: Tăng 200% tương tác nếu làm đúng.
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Right Card (Main) -->
+                        <div class="lg:w-1/2 p-1 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-2xl shadow-2xl animate-on-scroll delay-200">
+                            <div class="bg-[#062c6f] h-full p-8 rounded-xl flex flex-col justify-center">
+                                <h3 class="text-2xl font-bold text-center text-[#ffbd00]">Học Phí Đầu Tư</h3>
+                                <p class="text-5xl md:text-6xl font-extrabold text-center text-white my-6">9.999.000đ</p>
+                                
+                                <div class="border-t border-white/20 pt-6">
+                                    <h4 class="font-bold text-center text-lg text-white mb-4">Quét mã để thanh toán</h4>
+                                    <div class="flex flex-col sm:flex-row items-center gap-6 justify-center">
+                                        <img src="https://dps.media/wp-content/uploads/2025/11/download.png" alt="QR Code Payment" class="w-40 h-40 rounded-md bg-white p-1"/>
+                                        <div class="text-left text-white">
+                                            <p><span class="font-semibold text-gray-300">Ngân hàng:</span> ACB</p>
+                                            <p><span class="font-semibold text-gray-300">Số TK:</span> 366288</p>
+                                            <p><span class="font-semibold text-gray-300">Chủ TK:</span> NGUYEN DANG THI NI VA</p>
+                                        </div>
+                                    </div>
+                                    <p class="mt-6 text-center text-yellow-300 text-sm font-semibold">Nội dung chuyển khoản: <span class="font-bold text-white">[Tên] - [SĐT] - 28 Ngay</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="py-24 bg-gray-50 text-[#001f54] bg-cover bg-center relative" style="background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+                <div class="absolute inset-0 bg-white/90 backdrop-blur-sm"></div>
+                <div class="container mx-auto px-6 text-center relative z-10">
+                    <div class="animate-on-scroll">
+                        <h2 class="text-3xl md:text-5xl font-extrabold mb-8 tracking-wide">
+                            Sẵn Sàng Biến Fanpage Thành Cỗ Máy Tuyển Sinh?
+                        </h2>
+                        <a href="#pricing" class="bg-[#ffbd00] text-[#001f54] font-bold py-4 px-12 rounded-full text-xl hover:bg-yellow-500 transition duration-300 transform hover:scale-105 inline-block shadow-lg glow-on-hover">
+                            ĐĂNG KÝ THAM GIA THỬ THÁCH
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <!-- Footer -->
+        <footer class="bg-[#001133] py-12">
+            <div class="container mx-auto px-6 text-center text-gray-400">
+                <h3 class="text-3xl font-bold text-white mb-2">Ni<span class="text-[#ffbd00]">Va</span></h3>
+                <p class="text-lg text-gray-300 mb-4">Người Đồng Hành Cùng Người Làm Giáo Dục</p>
+                <p class="max-w-xl mx-auto">Giúp Chủ Trường Xây Thương Hiệu – Tuyển Sinh Bền Vững – Sống Bình An</p>
+                <div class="mt-8 border-t border-gray-700 pt-8">
+                    <p>&copy; 2024 NiVa. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            observer.observe(el);
+        });
+        
+        // Dynamic year for footer
+        const yearSpan = document.querySelector('footer p[data-year]');
+        if (yearSpan) {
+            yearSpan.textContent = `© ${new Date().getFullYear()} NiVa. All rights reserved.`;
+        } else {
+            // Fallback for the current structure
+            const footerCopy = document.querySelector('footer .border-t p');
+            if (footerCopy) {
+                footerCopy.textContent = `© ${new Date().getFullYear()} NiVa. All rights reserved.`
+            }
+        }
+      });
+    </script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
