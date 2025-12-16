@@ -87,7 +87,9 @@
             <section class="py-24 bg-[#001f54]">
                 <div class="container mx-auto px-6">
                     <div class="text-center mb-16">
-                        <h2 class="text-4xl md:text-5xl font-bold text-[#ffbd00] mb-4 animate-on-scroll tracking-wide">Fanpage Của Bạn Có Đang... "Mất Tương Tác"?</h2>
+                        <h2 class="text-3xl md:text-5xl font-extrabold text-[#ffbd00] mb-8 animate-on-scroll leading-tight">
+                            Fanpage Của Bạn Có Đang Tuyển Sinh Tốt Không?<br class="hidden md:block"/> Hay Chỉ Là Kênh "Up Hình Hoạt Động"?
+                        </h2>
                         <p class="text-lg text-gray-300 max-w-3xl mx-auto animate-on-scroll delay-100">Nếu bạn đang gặp phải những vấn đề này, fanpage của trường đang dần trở nên mờ nhạt trong mắt phụ huynh.</p>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -317,10 +319,10 @@
                     <div class="text-center mb-16">
                         <h2 class="text-4xl md:text-5xl font-bold text-[#ffbd00] mb-4 animate-on-scroll tracking-wide">Học Phí & Hình Thức Học</h2>
                     </div>
-                    <div class="max-w-5xl mx-auto flex flex-col lg:flex-row gap-8 items-stretch">
+                    <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-8 items-stretch">
                         <!-- Left Card -->
-                        <div class="lg:w-1/2 bg-[#062c6f] p-8 rounded-xl shadow-lg flex flex-col animate-on-scroll delay-100">
-                            <h3 class="text-2xl font-bold text-center mb-6">Hình Thức Học Online</h3>
+                        <div class="lg:w-5/12 bg-[#062c6f] p-8 rounded-xl shadow-lg flex flex-col animate-on-scroll delay-100 border border-blue-800">
+                            <h3 class="text-2xl font-bold text-center mb-6 text-white uppercase tracking-wider">Hình Thức Học Online</h3>
                             <ul class="space-y-4 text-lg text-gray-200 flex-grow">
                                 <li class="flex items-start">
                                     <span class="text-[#ffbd00] mr-3 mt-1 font-bold">✓</span>
@@ -341,22 +343,52 @@
                             </ul>
                         </div>
                         <!-- Right Card (Main) -->
-                        <div class="lg:w-1/2 p-1 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-2xl shadow-2xl animate-on-scroll delay-200">
-                            <div class="bg-[#062c6f] h-full p-8 rounded-xl flex flex-col justify-center">
-                                <h3 class="text-2xl font-bold text-center text-[#ffbd00]">Học Phí Đầu Tư</h3>
-                                <p class="text-5xl md:text-6xl font-extrabold text-center text-white my-6">9.999.000đ</p>
+                        <div class="lg:w-7/12 p-1 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-2xl shadow-2xl animate-on-scroll delay-200 transform scale-105 md:scale-100 lg:scale-105 relative z-10">
+                            <div class="bg-[#062c6f] h-full p-6 md:p-8 rounded-xl flex flex-col justify-center">
+                                <h3 class="text-2xl font-bold text-center text-[#ffbd00] mb-2">Học Phí Đầu Tư</h3>
+                                
+                                <div class="text-center my-4">
+                                    <p class="text-gray-400 text-xl line-through mb-1">9.999.000đ</p>
+                                    <p class="text-5xl md:text-6xl font-extrabold text-[#ffbd00] animate-pulse">4.898.000đ</p>
+                                </div>
+
+                                <!-- Cam Kết -->
+                                <div class="bg-[#001f54]/60 rounded-lg p-5 mb-6 border border-[#ffbd00]/40">
+                                    <div class="flex items-center justify-center mb-4">
+                                        <span class="bg-[#ffbd00] text-[#001f54] text-sm font-bold px-3 py-1 rounded-full uppercase">Cam Kết Hoàn Tiền</span>
+                                    </div>
+                                    <ul class="space-y-3">
+                                        <li class="flex items-start gap-3">
+                                            <div class="flex-shrink-0 mt-1">
+                                                <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                            </div>
+                                            <p class="text-white text-sm md:text-base"><strong class="text-[#ffbd00]">HOÀN TIỀN 100% HỌC PHÍ</strong> nếu làm đủ nội dung hướng dẫn và đạt mục tiêu tăng trưởng 200% tương tác.</p>
+                                        </li>
+                                        <li class="flex items-start gap-3">
+                                            <div class="flex-shrink-0 mt-1">
+                                                <svg class="w-6 h-6 text-[#ffbd00]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                            </div>
+                                            <p class="text-white text-sm md:text-base"><strong class="text-[#ffbd00]">HỖ TRỢ TRỌN ĐỜI:</strong> Nếu làm đủ mà chưa đạt mục tiêu tăng 200%, bạn sẽ được hỗ trợ cho đến khi đạt.</p>
+                                        </li>
+                                    </ul>
+                                </div>
                                 
                                 <div class="border-t border-white/20 pt-6">
                                     <h4 class="font-bold text-center text-lg text-white mb-4">Quét mã để thanh toán</h4>
                                     <div class="flex flex-col sm:flex-row items-center gap-6 justify-center">
-                                        <img src="https://dps.media/wp-content/uploads/2025/11/download.png" alt="QR Code Payment" class="w-40 h-40 rounded-md bg-white p-1"/>
-                                        <div class="text-left text-white">
-                                            <p><span class="font-semibold text-gray-300">Ngân hàng:</span> ACB</p>
-                                            <p><span class="font-semibold text-gray-300">Số TK:</span> 366288</p>
-                                            <p><span class="font-semibold text-gray-300">Chủ TK:</span> NGUYEN DANG THI NI VA</p>
+                                        <div class="relative group">
+                                            <img src="https://dps.media/wp-content/uploads/2025/12/download.png" alt="QR Code Payment" class="w-36 h-36 rounded-md bg-white p-1 shadow-lg"/>
+                                            <div class="absolute inset-0 bg-[#ffbd00]/20 hidden group-hover:block transition-all rounded-md pointer-events-none"></div>
+                                        </div>
+                                        <div class="text-left text-white text-sm md:text-base">
+                                            <p class="mb-1"><span class="font-semibold text-gray-300 w-24 inline-block">Ngân hàng:</span> <span class="font-bold text-[#ffbd00]">ACB</span></p>
+                                            <p class="mb-1"><span class="font-semibold text-gray-300 w-24 inline-block">Số TK:</span> <span class="font-mono text-xl">366288</span></p>
+                                            <p><span class="font-semibold text-gray-300 w-24 inline-block">Chủ TK:</span> <span class="uppercase">Nguyen Dang Thi Ni Va</span></p>
                                         </div>
                                     </div>
-                                    <p class="mt-6 text-center text-yellow-300 text-sm font-semibold">Nội dung chuyển khoản: <span class="font-bold text-white">[Tên] - [SĐT] - 28 Ngay</span></p>
+                                    <div class="mt-6 text-center bg-white/10 py-2 rounded-lg">
+                                        <p class="text-yellow-300 text-sm font-semibold">Nội dung CK: <span class="font-bold text-white font-mono bg-[#001f54] px-2 py-1 rounded ml-1">[Tên] - [SĐT] - 28 Ngay</span></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
